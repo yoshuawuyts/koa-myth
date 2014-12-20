@@ -1,0 +1,39 @@
+{
+  "name": "koa-myth",
+  "version": "1.0.0",
+  "description": "Wraps a myth or rework instance into a koa middleware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node --harmony node_modules/.bin/tape test.js | tap-bail | tap-spec",
+    "test-cov": "NODE_ENV=test node --harmony node_modules/.bin/istanbul cover test.js",
+    "lint": "eslint ."
+  },
+  "repository": "yoshuawuyts/koa-myth",
+  "keywords": [
+    "koa",
+    "myth",
+    "rework",
+    "http",
+    "handler"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "myth-request": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^0.10.2",
+    "istanbul": "^0.3.5",
+    "koa": "^0.14.0",
+    "myth": "^1.2.1",
+    "rework": "^1.0.1",
+    "servertest": "^1.1.1",
+    "tap-bail": "0.0.0",
+    "tap-spec": "^2.1.2",
+    "tape": "^3.0.3"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}
