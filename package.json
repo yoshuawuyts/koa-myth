@@ -1,6 +1,6 @@
 {
   "name": "koa-myth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wraps a myth or rework instance into a koa middleware.",
   "main": "index.js",
   "scripts": {
